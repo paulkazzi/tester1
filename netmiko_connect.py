@@ -8,7 +8,7 @@ import logging
 # logging.basicConfig(filename='netmiko_global.log', level=logging.DEBUG)
 # logger = logging.getLogger("netmiko")
 
-connection = netmiko.ConnectHandler(ip='192.168.207.1', device_type= 'cisco_ios',
+connection = netmiko.ConnectHandler(ip='192.168.20.1', device_type= 'cisco_ios',
                                      username='cisco', password= 'password123',
                                      session_log= 'netmiko_session.log',
                                      secret='cisco')
